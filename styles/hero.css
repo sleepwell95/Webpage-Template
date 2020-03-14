@@ -4,9 +4,9 @@
   position: relative;
 }
 
-
-.hero-cover{
+.hero-cover {
   position: absolute;
+  /* Vietoje video gali būti panaudotas šis paveikslėlis. */
   background: url(../img/hero-bg.jpg);
   background-size: cover;
   height: 100%;
@@ -18,7 +18,7 @@
   display: none;
 }
 
-#hero .content{
+#hero .content {
   font-size: 1.5rem;
   color: #eee;
   text-shadow: 2px 2px 1px #333;
@@ -32,7 +32,6 @@
   text-align: center;
 }
 
-.img-link{
+.img-link {
   height: 100px;
 }
-
