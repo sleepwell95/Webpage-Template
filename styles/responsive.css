@@ -1,0 +1,58 @@
+@media screen and (min-width: 576px) {
+  .toggler {
+    display: none;
+  }
+
+  ul.link-menu {
+    display: block;
+    position: static;
+    margin-left: auto;
+    width: initial;
+    float: right;
+  }
+
+  ul.link-menu:hover {
+    border-bottom: none;
+    box-shadow: none;
+  }
+
+  .link-item {
+    display: inline-block;
+    height: 100%;
+  }
+
+  .link-item:hover > a {
+    background: none;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .container{
+    width: 1140px;
+    margin: auto;
+  }
+
+  .hero-cover {
+    display: none;
+  }
+
+  #hero .content{
+    font-size: 2.5rem;
+    margin: 0;
+    color: #028be6;
+  }
+
+  #bg-video {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    transition: 
+      filter 2s ease-in-out 0.9s;
+    transform: scale(1.2);
+    filter: grayscale(0.6) blur(2px);
+    z-index: -1;
+  }
+}
